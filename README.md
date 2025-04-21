@@ -46,7 +46,7 @@
 ![홈페이지](./img/HomePage.png)
 
 ### 📦 게시판 목록
-![게시판 목록](./img/BoardList.png)
+![게시판 목록](https://github.com/jjjyaa/team-board-project/blob/master/img/BoardList.PNG)
 
 ### 🛒 게시글 상세
 ![게시글 상세](./img/Detail.png)
