@@ -54,11 +54,10 @@
 
 ---
 ## 3. 기술 스택
-- **Frontend**: React, TypeScript, Next.js, Styled-Components, Context API
-- **Backend**: Spring Boot, JPA, MyBatis, Spring Security
+- **Frontend**: React, TypeScript, Next.js, Styled-Components, Context API, Axios
+- **Backend**: Spring Boot, JPA, MyBatis
 - **Database**: MySQL 8.0
 - **Build Tool**: Gradle
-- **기타**: Docker, Axios, JWT, ESLint, Prettier
 
 ---
 ## 4. 주요 기능
