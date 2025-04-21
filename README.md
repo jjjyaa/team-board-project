@@ -11,10 +11,13 @@
 **MySQL 수동 설정 방법 (Docker 미사용 시)**
   1. MySQL 8.0 설치
   2. 아래 정보를 기반으로 DB 수동 생성
-  - DB 이름:  sqldb
-  - 사용자명:  root
-  - 비밀번호:  chlgmlwn!00
-  - SQL로 직접 생성: (MySQL 접속 후) CREATE DATABASE sqldb;
+   - **DB 이름**:  sqldb  
+   - **사용자명**:  root  
+   - **비밀번호**:  chlgmlwn!00  
+   - **SQL로 직접 생성**:  
+     ```sql
+     CREATE DATABASE sqldb;
+     ```
   3. `git clone https://github.com/jjjyaa/team-board-project.git`
   4. `cd back/hijtest`
   5. `./gradlew build` (Windows는 `gradlew.bat build`)
