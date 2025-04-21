@@ -9,31 +9,33 @@
 ---
 ## 2. 실행 방법
 **MySQL 수동 설정 방법 (Docker 미사용 시)**
-  1. MySQL 8.0 설치
-  2. 아래 정보를 기반으로 DB 수동 생성
-   - **DB 이름**:  sqldb  
-   - **사용자명**:  root  
-   - **비밀번호**:  chlgmlwn!00  
-   - **SQL로 직접 생성**:  
+1. MySQL 8.0 설치  
+2. 아래 정보를 기반으로 DB 수동 생성:
+   - **DB 이름**: `sqldb`  
+   - **사용자명**: `root`  
+   - **비밀번호**: `chlgmlwn!00`  
+   - **SQL로 직접 생성**:
      ```sql
      CREATE DATABASE sqldb;
      ```
-  3. `git clone https://github.com/jjjyaa/team-board-project.git`
-  4. `cd back/hijtest`
-  5. `./gradlew build` (Windows는 `gradlew.bat build`)
-  6. `./gradlew bootRun` 으로 서버 실행 (Windows는 `gradlew.bat bootRun`)
+3. 프로젝트 클론 및 백엔드 실행:
+   ```bash
+   git clone https://github.com/jjjyaa/team-board-project.git
+   cd back/hjtest
+   ./gradlew build        # Windows는 gradlew.bat build
+   ./gradlew bootRun      # Windows는 gradlew.bat bootRun
 
 **Docker 사용 시 실행 방법**
-  1. `git clone https://github.com/jjjyaa/team-board-project.git`
-  2. `cd back/hijtest`
-  3. `docker-compose up -d`
-  4. `./gradlew build` (Windows는 `gradlew.bat build`)
-  5. `./gradlew bootRun` 으로 서버 실행 (Windows는 `gradlew.bat bootRun`)
+git clone https://github.com/jjjyaa/team-board-project.git
+cd back/hjtest
+docker-compose up -d
+./gradlew build        # Windows는 gradlew.bat build
+./gradlew bootRun      # Windows는 gradlew.bat bootRun
 
 **Frontend (React) 실행 방법**
-  1. `cd front/talkspace`
-  2. `yarn install`
-  3. `yarn dev` 실행 후 (http://localhost:3000) 접속
+cd front/talkspace
+yarn install
+yarn dev
 
 ---
 ## 3. 기술 스택
